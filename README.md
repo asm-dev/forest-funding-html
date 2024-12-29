@@ -47,8 +47,6 @@ La creación de esta web forma parte del programa de actividades del MS en Desar
    - Información de contacto y ubicación de la oficina.
    - Enlace a Google Maps para simplificar el acceso.
 
-
-
 &nbsp;
 
 ## Diseño técnico
