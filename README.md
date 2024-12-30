@@ -12,7 +12,7 @@ Este proyecto contiene el HTML de una página web diseñada para promover la ref
 
 La creación de esta web forma parte del programa de actividades del MS en Desarrollo Web de la UEM. Este repositorio únicamente contiene la estructura HTML del sitio, pero se itera sobre la misma agregando estilos e interactividad con CSS y JS en otros dos repositorios:
 
-1. Ponemos la web bonita
+1. [Ponemos la web bonita](https://github.com/asm-dev/forest-funding-css)
 2. La volvemos interactiva
 
 &nbsp;
