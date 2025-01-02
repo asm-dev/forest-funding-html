@@ -1,10 +1,8 @@
 # Reforestación en Galicia - Estructura HTML
 
-&nbsp;
-
-## Descripción del proyecto
-
 Este proyecto contiene el HTML de una página web diseñada para promover la reforestación en Galicia, una región afectada gravemente por incendios forestales. Es una página de micromecenazgo cuyo fin principal es generar conciencia sobre la importancia de la recuperación ambiental mediante la recaudación de donativos que permitan la reforestación de montes gallegos incendiados.
+
+&nbsp;
 
 > **Nota**: Este proyecto no incluye datos ni proyectos reales. Es una maqueta educativa con fines demostrativos
 
@@ -17,7 +15,7 @@ La creación de esta web forma parte del programa de actividades del MS en Desar
 
 &nbsp;
 
-## Objetivos de la web
+## Objetivos
 
 - **Informar**. Difundir información sobre la problemática de los incendios forestales en Galicia y la necesidad de reforestar.
 - **Concienciar**. Educar a la comunidad sobre la importancia de la sostenibilidad y la preservación de la biodiversidad.
@@ -60,7 +58,7 @@ Se ha utilizado HTML semántico para garantizar la accesibilidad y una estructur
 
 &nbsp;
 
-## Futuras Implementaciones
+## Futuras implementaciones
 
 Aunque este proyecto es un mock, tiene potencial para evolucionar y convertirse en una plataforma real que incluya:
 
