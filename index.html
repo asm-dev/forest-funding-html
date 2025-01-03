@@ -22,7 +22,7 @@
       <div id="hero">
         <h1>Recuperamos el verde de Galicia</h1>
         <img
-          src="img/encabezado_bosque.jpg"
+          src="img/main/encabezado_bosque.jpg"
           alt="Imagen de bosque en Galicia"
         />
       </div>
@@ -44,7 +44,7 @@
           <p>Conseguimos pasar de lo quemado</p>
           <figure>
             <img
-              src="img/incendio_bosque.jpg"
+              src="img/main/incendio_bosque.jpg"
               alt="Imagen de bosque tras un incendio"
             />
             <figcaption>Bosque incendiado.</figcaption>
@@ -52,7 +52,7 @@
           <p>A lo recuperado</p>
           <figure>
             <img
-              src="img/bosque_recuperado.jpg"
+              src="img/main/bosque_recuperado.jpg"
               alt="Imagen de bosque reforestado en Galicia"
             />
             <figcaption>
@@ -92,7 +92,35 @@
             locales y asociaciones comprometidas con el medio ambiente.
           </p>
           <img
-            src="img/equipo_reforestacion.jpg"
+            src="img/actions/reforestation/crecente/crecente_alcalde.jpg"
+            alt="La imagen muestra un grupo de hojas de varios colores"
+          />
+          <img
+            src="img/actions/reforestation/crecente/crecente_bomberos.jpg"
+            alt="La imagen muestra un grupo de hojas de varios colores"
+          />
+          <img
+            src="img/actions/reforestation/crecente/crecente_brasas_del_incendio.jpg"
+            alt="La imagen muestra un grupo de hojas de varios colores"
+          />
+          <img
+            src="img/actions/reforestation/crecente/crecente_helicoptero.jpg"
+            alt="La imagen muestra un grupo de hojas de varios colores"
+          />
+          <img
+            src="img/actions/reforestation/crecente/crecente_incendio_de_noche.jpg"
+            alt="La imagen muestra un grupo de hojas de varios colores"
+          />
+          <img
+            src="img/actions/reforestation/crecente/crecente_incendio_desde_el_aire.jpg"
+            alt="La imagen muestra un grupo de hojas de varios colores"
+          />
+          <img
+            src="img/actions/reforestation/crecente/crecente_mapa.jpg"
+            alt="La imagen muestra un grupo de hojas de varios colores"
+          />
+          <img
+            src="img/actions/reforestation/crecente/crecente_vecino_pasea.jpg"
             alt="La imagen muestra un grupo de hojas de varios colores"
           />
         </article>
@@ -117,7 +145,7 @@
               biodiversidad.
             </p>
             <img
-              src="img/as_fragas_eume.jpg"
+              src="img/actions/reforestation/as_fragas_eume.jpg"
               alt="Vista de As Fragas do Eume"
             />
             <a href="#" target="_blank">Más sobre este proyecto</a>
@@ -129,11 +157,36 @@
               jóvenes sobre la importancia de cuidar los bosques.
             </p>
             <img
-              src="img/educacion_ambiental.jpg"
+              src="img/actions/education/educacion_ambiental.jpg"
               alt="Taller en escuela sobre medio ambiente"
             />
             <a href="#" target="_blank">Ver más detalles</a>
           </article>
+        </div>
+      </section>
+
+      <section id="current-action">
+        <h2>Salvemos Crecente</h2>
+        <section id="image-carousel">
+          <div class="carousel-container">
+            <div id="carousel-images">
+              <img
+                src="img/as_fragas_eume.jpg"
+                alt="Vista de As Fragas do Eume"
+              />
+            </div>
+            <button id="prev-btn">←</button>
+            <button id="next-btn">→</button>
+          </div>
+        </section>
+
+        <article id="countdown">
+          <p id="countdown-information"></p>
+          <p id="countdown-timer"></p>
+        </article>
+        <div id="progress-bar-container">
+          <progress id="donation-progress" max="100" value="0"></progress>
+          <span id="donation-progress-text">Donado: 0%</span>
         </div>
       </section>
 
@@ -144,7 +197,7 @@
           pino y conseguir frenar la expansión del eucalipto en montes gallegos.
           <span>¡Tu contribución es esencial!</span>
         </p>
-        <form action="#" method="post">
+        <form id="donation-form" action="#" method="post">
           <label for="nombre">Nombre:</label>
           <input type="text" id="nombre" name="nombre" required />
 
