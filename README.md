@@ -26,22 +26,32 @@ La creación de esta web forma parte del programa de actividades del MS en Desar
 ## Mapa del sitio
 
 1. **Inicio**:
+
    - Introducción al problema de los incendios.
    - Llamada a la acción mediante el uso de una imagen de un bosque reforestado.
 
 2. **Sobre Nosotros**:
+
    - Se detallan la misión y objetivos.
    - Recoge información sobre el equipo responsable del proyecto.
 
 3. **Proyectos**:
+
    - Descripción de iniciativas clave como la reforestación en As Fragas do Eume.
    - Descripción de acciones de concienciación como talleres de educación ambiental en colegios gallegos.
 
-4. **Donar**:
+4. **Llamada a la acción**:
+
+   - Petición de recaudación para una acción de reforestación en curso.
+   - Carrusel de imágenes para incentivar los donativos y trasladar la realidad del incendio.
+   - Marcador de progreso en forma de contador y porcentaje de recaudación con respecto al objetivo marcado.
+
+5. **Donar**:
+
    - Formulario para realizar contribuciones.
    - Información sobre cómo se utilizan las donaciones (política de transparencia).
 
-5. **Contacto**:
+6. **Contacto**:
    - Información de contacto y ubicación de la oficina.
    - Enlace a Google Maps para simplificar el acceso.
 
