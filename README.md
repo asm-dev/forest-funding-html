@@ -4,10 +4,10 @@ Este proyecto contiene el HTML de una página web diseñada para promover la ref
 
 > La web no incluye datos ni proyectos reales. Es una maqueta educativa con fines demostrativos
 
-La creación de esta web forma parte del programa de actividades del MS en Desarrollo Web de la UEM. Este repositorio únicamente contiene la estructura HTML del sitio, pero se itera sobre la misma agregando estilos e interactividad con CSS y JS en otros dos repositorios:
+La creación de esta web forma parte del programa de actividades del MS en Desarrollo Web de la UEM. Este repositorio únicamente contiene la estructura HTML del sitio, pero se itera sobre la misma agregando estilos e interactividad aquí:
 
-1. [Ponemos la web bonita](https://github.com/asm-dev/forest-funding-css)
-2. [La volvemos interactiva](https://github.com/asm-dev/forest-funding-js)
+1. [CSS](https://github.com/asm-dev/forest-funding-css)
+2. [JS](https://github.com/asm-dev/forest-funding-js)
 
 &nbsp;
 
@@ -20,6 +20,8 @@ La creación de esta web forma parte del programa de actividades del MS en Desar
 &nbsp;
 
 ## Mapa del sitio
+
+Se trata de una única página o Home compuesta de los siguientes elementos:
 
 1. **Inicio**:
 
@@ -51,6 +53,9 @@ La creación de esta web forma parte del programa de actividades del MS en Desar
    - Información de contacto y ubicación de la oficina.
    - Enlace a Google Maps para simplificar el acceso.
 
+![image](https://github.com/user-attachments/assets/c9b7986f-7f6c-4a13-ae53-d5065c7ac0aa)
+
+
 &nbsp;
 
 ## Diseño técnico
@@ -61,13 +66,3 @@ Se ha utilizado HTML semántico para garantizar la accesibilidad y una estructur
 - **Etiquetas semánticas**. Se emplean tags como `<header>`, `<main>`, `<section>`, `<article>` y `<footer>`, en lugar de `<div>` dado que este último no aporta mayor significado. Esto contribuye a la legibilidad del código, pero además optimiza el SEO y la UX con lectores de pantalla.
 - **Accesibilidad**. Todas las imágenes incluyen atributos `alt` descriptivos para personas con discapacidad visual. Además, el formulario emplea etiquetas claras y campos requeridos.
 - **Eficiencia de carga**. Las imágenes han sido optimizadas para reducir su peso sin comprometer la calidad visual. Con ello conseguimos asegurar un mínimo consumo.
-
-&nbsp;
-
-## Futuras implementaciones
-
-Aunque este proyecto es un mock, tiene potencial para evolucionar y convertirse en una plataforma real que incluya:
-
-- Proyectos verificados y actualizados en tiempo real.
-- Funcionalidades avanzadas como un mapa interactivo de zonas reforestadas.
-- Colaboración con entidades gubernamentales y ONGs.
