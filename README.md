@@ -2,11 +2,7 @@
 
 Este proyecto contiene el HTML de una página web diseñada para promover la reforestación en Galicia, una región afectada gravemente por incendios forestales. Es una página de micromecenazgo cuyo fin principal es generar conciencia sobre la importancia de la recuperación ambiental mediante la recaudación de donativos que permitan la reforestación de montes gallegos incendiados.
 
-&nbsp;
-
-> **Nota**: Este proyecto no incluye datos ni proyectos reales. Es una maqueta educativa con fines demostrativos
-
-&nbsp;
+> La web no incluye datos ni proyectos reales. Es una maqueta educativa con fines demostrativos
 
 La creación de esta web forma parte del programa de actividades del MS en Desarrollo Web de la UEM. Este repositorio únicamente contiene la estructura HTML del sitio, pero se itera sobre la misma agregando estilos e interactividad con CSS y JS en otros dos repositorios:
 
