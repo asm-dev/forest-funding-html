@@ -1,68 +1,68 @@
-# Reforestación en Galicia - Estructura HTML
+# Reforestation in Galicia - HTML Structure
 
-Este proyecto contiene el HTML de una página web diseñada para promover la reforestación en Galicia, una región afectada gravemente por incendios forestales. Es una página de micromecenazgo cuyo fin principal es generar conciencia sobre la importancia de la recuperación ambiental mediante la recaudación de donativos que permitan la reforestación de montes gallegos incendiados.
+This project contains the HTML of a website designed to promote reforestation in Galicia, a region severely affected by forest fires. It is a crowdfunding page whose main purpose is to raise awareness about the importance of environmental recovery by collecting donations that enable the reforestation of burned Galician forests.
 
-> La web no incluye datos ni proyectos reales. Es una maqueta educativa con fines demostrativos
+> The website includes no real data or projects. It is an educational mockup with demonstrative purposes
 
-La creación de esta web forma parte del programa de actividades del MS en Desarrollo Web de la UEM. Este repositorio únicamente contiene la estructura HTML del sitio, pero se itera sobre la misma agregando estilos e interactividad aquí:
+The creation of this website is part of the activity program of the UEM MS in Web Development. This repository only contains the HTML structure of the site, but it is iterated on by adding styles and interactivity here:
 
 1. [CSS](https://github.com/asm-dev/forest-funding-css)
 2. [JS](https://github.com/asm-dev/forest-funding-js)
 
 &nbsp;
 
-## Objetivos
+## Goals
 
-- **Informar**. Difundir información sobre la problemática de los incendios forestales en Galicia y la necesidad de reforestar.
-- **Concienciar**. Educar a la comunidad sobre la importancia de la sostenibilidad y la preservación de la biodiversidad.
-- **Facilitar la acción**. Crear una herramienta online de fácil utilización para simplificar el proceso de donaciones colectivas.
+- **Inform**. Spread information about the problem of forest fires in Galicia and the need to reforest.
+- **Raise awareness**. Educate the community about the importance of sustainability and biodiversity preservation.
+- **Make action easy**. Create an easy-to-use online tool to simplify the collective donation process.
 
 &nbsp;
 
-## Mapa del sitio
+## Site map
 
-Se trata de una única página o Home compuesta de los siguientes elementos:
+It is a single page or Home made up of the following elements:
 
-1. **Inicio**:
+1. **Home**:
 
-   - Introducción al problema de los incendios.
-   - Llamada a la acción mediante el uso de una imagen de un bosque reforestado.
+   - Introduction to the fire problem.
+   - Call to action using an image of a reforested forest.
 
-2. **Sobre Nosotros**:
+2. **About Us**:
 
-   - Se detallan la misión y objetivos.
-   - Recoge información sobre el equipo responsable del proyecto.
+   - The mission and goals are detailed.
+   - Includes information about the team responsible for the project.
 
-3. **Proyectos**:
+3. **Projects**:
 
-   - Descripción de iniciativas clave como la reforestación en As Fragas do Eume.
-   - Descripción de acciones de concienciación como talleres de educación ambiental en colegios gallegos.
+   - Description of key initiatives such as the reforestation in As Fragas do Eume.
+   - Description of awareness actions such as environmental education workshops in Galician schools.
 
-4. **Llamada a la acción**:
+4. **Call to action**:
 
-   - Petición de recaudación para una acción de reforestación en curso.
-   - Carrusel de imágenes para incentivar los donativos y trasladar la realidad del incendio.
-   - Marcador de progreso en forma de contador y porcentaje de recaudación con respecto al objetivo marcado.
+   - Fundraising request for an ongoing reforestation action.
+   - Image carousel to encourage donations and convey the reality of the fire.
+   - Progress tracker in the form of a counter and percentage raised with respect to the set goal.
 
-5. **Donar**:
+5. **Donate**:
 
-   - Formulario para realizar contribuciones.
-   - Información sobre cómo se utilizan las donaciones (política de transparencia).
+   - Form to make contributions.
+   - Information on how donations are used (transparency policy).
 
-6. **Contacto**:
-   - Información de contacto y ubicación de la oficina.
-   - Enlace a Google Maps para simplificar el acceso.
+6. **Contact**:
+   - Contact information and office location.
+   - Link to Google Maps to simplify access.
 
 ![image](https://github.com/user-attachments/assets/c9b7986f-7f6c-4a13-ae53-d5065c7ac0aa)
 
 
 &nbsp;
 
-## Diseño técnico
+## Technical design
 
-Se ha utilizado HTML semántico para garantizar la accesibilidad y una estructura clara:
+Semantic HTML has been used to ensure accessibility and a clear structure:
 
-- **Navegación sencilla**. El usuario puede acceder a todas las secciones mediante el _scroll_ o el uso del navegador principal del sitio.
-- **Etiquetas semánticas**. Se emplean tags como `<header>`, `<main>`, `<section>`, `<article>` y `<footer>`, en lugar de `<div>` dado que este último no aporta mayor significado. Esto contribuye a la legibilidad del código, pero además optimiza el SEO y la UX con lectores de pantalla.
-- **Accesibilidad**. Todas las imágenes incluyen atributos `alt` descriptivos para personas con discapacidad visual. Además, el formulario emplea etiquetas claras y campos requeridos.
-- **Eficiencia de carga**. Las imágenes han sido optimizadas para reducir su peso sin comprometer la calidad visual. Con ello conseguimos asegurar un mínimo consumo.
+- **Simple navigation**. The user can access all sections by _scrolling_ or by using the site's main navigation.
+- **Semantic tags**. Tags such as `<header>`, `<main>`, `<section>`, `<article>` and `<footer>` are used instead of `<div>`, since the latter provides no additional meaning. This contributes to code readability, but also optimizes SEO and UX with screen readers.
+- **Accessibility**. All images include descriptive `alt` attributes for visually impaired people. In addition, the form uses clear labels and required fields.
+- **Loading efficiency**. Images have been optimized to reduce their weight without compromising visual quality. This ensures minimal resource consumption.
